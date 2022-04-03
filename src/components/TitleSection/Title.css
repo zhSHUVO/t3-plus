@@ -1,0 +1,23 @@
+.half-width {
+    width: 50%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.title span {
+    color: #ffd57a;
+}
+
+button {
+    color: #090b0d;
+    background-color: #ffd57a;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 50px;
+    cursor: pointer;
+}

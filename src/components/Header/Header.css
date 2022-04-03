@@ -1,0 +1,10 @@
+nav {
+    padding: 50px 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #dce8f2;
+}

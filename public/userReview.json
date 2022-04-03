@@ -1,0 +1,44 @@
+[
+    {
+        "id": "124e13b9-2d54-4b12f",
+        "name": "Keira",
+        "ratings": 5,
+        "img": "https://randomuser.me/api/portraits/med/men/87.jpg",
+        "comment": "The sound is very good, stunning for the price. The product quality is very good. The box also."
+    },
+    {
+        "id": "124e13b9-2d54-4432f",
+        "name": "Roland",
+        "ratings": 5,
+        "img": "https://randomuser.me/api/portraits/med/women/20.jpg",
+        "comment": "Recieved quickly. Excellent for the price"
+    },
+    {
+        "id": "124e13b9-2d54-4b56f",
+        "name": "Lukas",
+        "ratings": 5,
+        "img": "https://randomuser.me/api/portraits/med/men/20.jpg",
+        "comment": "For the value it is simply the best! I have owned several headphones different kinds of headsets but this one has the best bang for the buck. "
+    },
+    {
+        "id": "124e13b9-2d54-4bfgf",
+        "name": "Jackson",
+        "ratings": 5,
+        "img": "https://randomuser.me/api/portraits/med/men/13.jpg",
+        "comment": "Thank you for your quick shipment. Great earphones."
+    },
+    {
+        "id": "124e13b9-2d54-12b2f",
+        "name": "Anésia",
+        "ratings": 5,
+        "img": "https://randomuser.me/api/portraits/med/women/89.jpg",
+        "comment": "The Tin T3 plus is simply amazing for its price range or matter of fact for any price range. I own plenty of other (more expensive) iem, but this is the only pair that doesn't require any eq."
+    },
+    {
+        "id": "124e13b9-2d54-4b263",
+        "name": "Orlando",
+        "ratings": 5,
+        "img": "https://randomuser.me/api/portraits/med/men/48.jpg",
+        "comment": "Great seller and great communication, the item arrived promptly, will purchase from seller again."
+    }
+]
