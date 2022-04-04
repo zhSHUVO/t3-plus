@@ -22,6 +22,11 @@ button {
     cursor: pointer;
 }
 
-.short-review h3{
+.short-review h3 {
     text-align: center;
+}
+
+.see-all {
+    text-align: center;
+    margin-bottom: 40px;
 }

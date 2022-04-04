@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import useReview from "../../hooks/useReview";
 import mainImage from "../../images/main-image.png";
 import SingleReview from "../SingleReview/SingleReview";
@@ -35,6 +36,12 @@ const Title = () => {
                             review={review}
                         ></SingleReview>
                     ))}
+                </div>
+
+                <div className="see-all">
+                    <Link to="/review">
+                        <button>See all Reviews</button>
+                    </Link>
                 </div>
             </div>
         </div>
