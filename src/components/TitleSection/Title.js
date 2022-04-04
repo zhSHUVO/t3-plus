@@ -5,6 +5,7 @@ import "./Title.css";
 
 const Title = () => {
     const [reviews, setReviews] = useReview();
+    console.log(reviews);
     return (
         <div>
             <div className="title">
@@ -25,7 +26,7 @@ const Title = () => {
                 </div>
             </div>
             <div className="review">
-                <p>total review: {reviews.length}</p>
+                <h3>Customer Review</h3>
             </div>
         </div>
     );

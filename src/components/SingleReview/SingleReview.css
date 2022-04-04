@@ -1,0 +1,18 @@
+.identity {
+    display: flex;
+}
+
+.identity img {
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.review {
+    width: 50%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
