@@ -1,6 +1,6 @@
 .charts {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .chart {
@@ -11,4 +11,11 @@
 
 .chart h3 {
     color: #ffd57a;
+}
+
+@media screen and (max-width: 400px) {
+    .charts {
+        display: flex;
+        flex-direction: column;
+    }
 }

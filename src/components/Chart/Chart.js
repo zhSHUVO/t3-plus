@@ -19,8 +19,8 @@ const Chart = () => {
             <div className="chart">
                 <h3>Monthly Sell</h3>
                 <LineChart
-                    width={500}
-                    height={400}
+                    width={350}
+                    height={300}
                     data={chartData}
                     label="aksjhd"
                 >
@@ -39,8 +39,30 @@ const Chart = () => {
             <div className="chart">
                 <h3>Investment vs Revenue</h3>
                 <BarChart
-                    width={500}
-                    height={400}
+                    width={400}
+                    height={300}
+                    data={chartData}
+                    margin={{
+                        top: 20,
+                        right: 30,
+                        left: 20,
+                        bottom: 5,
+                    }}
+                >
+                    <CartesianGrid strokeDasharray="3 3" />
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip />
+                    <Legend />
+                    <Bar dataKey="investment" stackId="a" fill="#fcba19" />
+                    <Bar dataKey="revenue" stackId="a" fill="#ffd57a" />
+                </BarChart>
+            </div>
+            <div className="chart">
+                <h3>Investment vs Revenue</h3>
+                <BarChart
+                    width={400}
+                    height={300}
                     data={chartData}
                     margin={{
                         top: 20,

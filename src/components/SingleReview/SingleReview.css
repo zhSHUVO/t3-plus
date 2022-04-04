@@ -19,3 +19,9 @@
     padding: 50px;
     border-radius: 50px;
 }
+
+@media screen and (max-width: 400px) {
+    .review {
+        margin: 10px;
+    }
+}

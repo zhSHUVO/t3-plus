@@ -22,6 +22,10 @@ button {
     cursor: pointer;
 }
 
+.short-review {
+    padding-top: 50px;
+}
+
 .short-review h3 {
     text-align: center;
 }
@@ -29,4 +33,24 @@ button {
 .see-all {
     text-align: center;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        flex-direction: column-reverse;
+        padding: 0%;
+    }
+    .half-width {
+        width: 80%;
+        text-align: center;
+    }
+
+    .half-width img {
+        width: 80%;
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 10px 25px;
+    }
 }

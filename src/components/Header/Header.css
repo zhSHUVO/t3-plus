@@ -8,3 +8,9 @@ nav a {
     text-decoration: none;
     color: #dce8f2;
 }
+
+@media screen and (max-width: 400px) {
+    nav {
+        padding: 20px 0;
+    }
+}
