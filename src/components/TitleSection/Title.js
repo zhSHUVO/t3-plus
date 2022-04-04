@@ -1,11 +1,12 @@
 import React from "react";
 import useReview from "../../hooks/useReview";
 import mainImage from "../../images/main-image.png";
+import SingleReview from "../SingleReview/SingleReview";
 import "./Title.css";
 
 const Title = () => {
     const [reviews, setReviews] = useReview();
-    console.log(reviews);
+
     return (
         <div>
             <div className="title">
@@ -25,8 +26,16 @@ const Title = () => {
                     <img src={mainImage} alt="" />
                 </div>
             </div>
-            <div className="review">
+            <div className="short-review">
                 <h3>Customer Review</h3>
+                <div className="review-container">
+                    {reviews.slice(0, 3).map((review) => (
+                        <SingleReview
+                            key={review.id}
+                            review={review}
+                        ></SingleReview>
+                    ))}
+                </div>
             </div>
         </div>
     );
