@@ -1,6 +1,6 @@
 # T3 Plus by Tin HiFi
 
-visit [here](t3-plus.netlify.app) to see, buy, explore what others experienced this good looking headphone.
+visit [here](https://t3-plus.netlify.app/) to see, buy, explore what others experienced this good looking headphone.
 
 ## website build with
 
