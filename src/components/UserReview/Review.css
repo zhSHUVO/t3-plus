@@ -4,6 +4,13 @@
     justify-items: center;
 }
 
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #ffd57a;
+    text-underline-offset: 3px;
+}
+
 @media screen and (max-width: 400px) {
     .review-container {
         grid-template-columns: repeat(1, 1fr);

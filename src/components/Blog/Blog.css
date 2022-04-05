@@ -1,0 +1,26 @@
+.blogs {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.question {
+    padding: 20px 500px;
+}
+
+summary {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+summary::marker {
+    color: #ffd57a;
+}
+
+@media screen and (max-width: 400px) {
+    .blogs {
+        padding-top: 20px;
+    }
+    .question {
+        padding: 20px;
+    }
+}

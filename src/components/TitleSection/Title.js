@@ -21,7 +21,14 @@ const Title = () => {
                         high-end accessories, gorgeous appearance, delicate
                         packaging, and appropriate prices.
                     </p>
-                    <button>Buy Now</button>
+                    <Link
+                        to={{
+                            pathname: "//linsoul.com/products/tinhifi-t3-plus",
+                        }}
+                        target="_blank"
+                    >
+                        <button>Buy Now</button>
+                    </Link>
                 </div>
                 <div className="half-width">
                     <img src={mainImage} alt="" />
